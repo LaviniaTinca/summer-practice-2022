@@ -1,0 +1,38 @@
+header {
+    background: black;/*#155263;/* #e3e3e3;*/
+    color: #ff9a3c;
+    padding:  1em;
+    text-align: center;
+}
+footer {
+    /*background: #155263;/* #e3e3e3;*/
+    color: #ff9a3c;
+    text-align: center;
+    padding: 1em;
+}
+li {
+    padding: .5em;
+}
+h4 {
+    color: antiquewhite;
+}
+p {
+    color: brown;
+}
+.line {
+    width:20%;
+    text-align:left;
+    color: #155263;
+    border-top: dotted 1px;
+}
+
+hr.class-2 {
+    border-top: 3px double #8c8b8b;
+}
+hr.class-1 {
+    width:20%;
+    margin-left: 0;
+    height: 2px;
+    background-color: #ff9a3c;
+    border:none
+}
