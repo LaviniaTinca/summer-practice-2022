@@ -72,11 +72,25 @@ function leapYears()
  * @param $array -the initial array
  * @return mixed -the sorted array
  */
-function bubbleSort($array)
+function bubbleSortAscending($array)
 {
     for ($i = 0; $i < sizeof($array); $i++) {
         for ($j = 0; $j < sizeof($array) - $i - 1; $j++) {
             if ($array[$j]> $array[$j+1]){
+                $aux=$array[$j];
+                $array[$j]= $array[$j+1];
+                $array[$j+1] = $aux;
+            }
+        }
+    }
+    return $array;
+}
+
+function bubbleSortDescending($array)
+{
+    for ($i = 0; $i < sizeof($array); $i++) {
+        for ($j = 0; $j < sizeof($array) - $i - 1; $j++) {
+            if ($array[$j]< $array[$j+1]){
                 $aux=$array[$j];
                 $array[$j]= $array[$j+1];
                 $array[$j+1] = $aux;

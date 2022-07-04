@@ -56,6 +56,40 @@
 
 <div>
     <hr class="class-1"/>
+    <h3>Bubble sort -ascending!</h3>
+    <?= "The given array is:" ?>
+    <?php
+    foreach ($array1 as $a) {
+        echo $a . " ";
+    }
+    echo "<br>";
+    echo "The sorted array is:";
+
+    foreach ($sorted1 as $a) {
+        echo $a . " ";
+    }
+    ?>
+</div>
+
+<div>
+    <hr class="class-1"/>
+    <h3>Bubble sort -descending!</h3>
+    <?= "The given array is:" ?>
+    <?php
+    foreach ($array2 as $a) {
+        echo $a . " ";
+    }
+    echo "<br>";
+    echo "The sorted array is:";
+
+    foreach ($sorted2 as $a) {
+        echo $a . " ";
+    }
+    ?>
+</div>
+
+<div>
+    <hr class="class-1"/>
     <h3>Leap Years!</h3>
     <p></p>
     <?= "Until 2022 there are: " . $count . " leap years" ?>
